@@ -56,8 +56,6 @@ SceneGame = game.Scene.extend({
         text.position.x = game.system.width / 2 - text.textWidth / 2;
         text.position.y = 150;
         this.stage.addChild(text);
-
-        this.super();
     },
 
     click: function() {
