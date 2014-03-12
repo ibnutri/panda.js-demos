@@ -58,7 +58,6 @@ SceneGame = game.Scene.extend({
         text.position.y = game.system.height - 50;
         this.stage.addChild(text);
 
-        this.super();
     },
 
     mousemove: function(e) {

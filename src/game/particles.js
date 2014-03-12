@@ -30,7 +30,6 @@ game.Scene.inject({
         this.emitter.textures.push('media/particle.png');
         this.addEmitter(this.emitter);
 
-        this.super();
     },
 
     click: function() {
@@ -41,7 +40,7 @@ game.Scene.inject({
 game.Scenes = [
     game.Scene.extend({
         init: function() {
-            this.super();
+        
             this.emitter.speedVar = 50;
         }
     }),

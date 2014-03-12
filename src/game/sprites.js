@@ -51,7 +51,6 @@ SceneGame = game.Scene.extend({
         text.position.y = 850;
         this.stage.addChild(text);
 
-        this.super();
     }
 });
 
